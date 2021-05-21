@@ -1,0 +1,86 @@
+Name:	Ethernet
+Description:	Realtek PCIe FE Family Controller
+Physical address (MAC):	14:18:77:ca:fa:64
+Status:	Not operational
+Maximum transmission unit:	1500
+IPv4 address:	10.105.1.239/24
+IPv6 address:	fe80::f4cc:8aa2:4f71:18a3%21/64
+Default gateway:	10.105.1.254
+DNS servers:	10.105.1.254, 172.19.64.197, 208.67.222.222, 208.67.220.220, 8.8.8.8, 8.8.4.4
+DNS connection suffix:	sat-1.babcock.edu.ng
+Connectivity (IPv4/IPv6):	Disconnected
+	                                   
+	                                   
+Name:	Local Area Connection* 3
+Description:	Microsoft Wi-Fi Direct Virtual Adapter #2
+Physical address (MAC):	e4:02:9b:40:17:bd
+Status:	Not operational
+Maximum transmission unit:	1500
+IPv4 address:	169.254.163.19/16
+IPv6 address:	fe80::dd33:826f:d7fb:a313%3/64
+DNS servers:	fec0:0:0:ffff::1%1, fec0:0:0:ffff::2%1, fec0:0:0:ffff::3%1
+Connectivity (IPv4/IPv6):	Disconnected
+	                                   
+	                                   
+Name:	Local Area Connection* 5
+Description:	Microsoft Wi-Fi Direct Virtual Adapter #3
+Physical address (MAC):	e6:02:9b:40:17:bd
+Status:	Not operational
+Maximum transmission unit:	1500
+IPv4 address:	169.254.19.191/16
+IPv6 address:	fe80::6c76:5b1a:4246:13bf%18/64
+DNS servers:	fec0:0:0:ffff::1%1, fec0:0:0:ffff::2%1, fec0:0:0:ffff::3%1
+Connectivity (IPv4/IPv6):	Disconnected
+	                                   
+	                                   
+Name:	Local Area Connection* 14
+Description:	Microsoft Hosted Network Virtual Adapter #2
+Physical address (MAC):	e6:02:9b:40:17:bc
+Status:	Not operational
+Maximum transmission unit:	1500
+IPv4 address:	169.254.174.22/16
+IPv6 address:	fe80::d28:1356:861a:ae16%15/64
+DNS servers:	fec0:0:0:ffff::1%1, fec0:0:0:ffff::2%1, fec0:0:0:ffff::3%1
+Connectivity (IPv4/IPv6):	Disconnected
+	                                   
+	                                   
+Name:	Wi-Fi
+Description:	Intel(R) Dual Band Wireless-AC 3160
+Physical address (MAC):	e4:02:9b:40:17:bc
+Status:	Not operational
+Maximum transmission unit:	1500
+IPv4 address:	192.168.137.226/24
+IPv6 address:	fe80::e8fb:a21:b797:c1ae%13/64
+Default gateway:	192.168.137.1
+DNS servers:	192.168.137.1
+DNS connection suffix:	mshome.net
+Connectivity (IPv4/IPv6):	Disconnected
+	                                   
+	                                   
+Name:	Bluetooth Network Connection
+Description:	Bluetooth Device (Personal Area Network)
+Physical address (MAC):	e4:02:9b:40:17:c0
+Status:	Not operational
+Maximum transmission unit:	1500
+IPv4 address:	169.254.235.72/16
+IPv6 address:	fe80::56:a102:316b:eb48%10/64
+DNS servers:	192.168.44.1
+Connectivity (IPv4/IPv6):	Disconnected
+	                                   
+	                                   
+Name:	vEthernet (Default Switch)
+Description:	Hyper-V Virtual Ethernet Adapter
+Physical address (MAC):	d6:15:30:a3:9f:89
+Status:	Not operational
+Maximum transmission unit:	1500
+Connectivity (IPv4/IPv6):	Disconnected
+	                                   
+	                                   
+Name:	Ethernet 2
+Description:	SAMSUNG Mobile USB Remote NDIS Network Device
+Physical address (MAC):	da:f6:12:3d:db:89
+Status:	Not Present
+Maximum transmission unit:	0
+Connectivity (IPv4/IPv6):	Disconnected
+	                                   
+	                                   

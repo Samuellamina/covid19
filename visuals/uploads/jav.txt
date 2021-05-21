@@ -1,0 +1,102 @@
+import java.io.*;
+
+public class CmdTest {
+    public static void main(String[] args) throws Exception {
+        ProcessBuilder builder = new ProcessBuilder(
+            "cmd.exe", "/c", "cd \"C:\\Program Files\\Microsoft SQL Server\" && dir");
+        builder.redirectErrorStream(true);
+        Process p = builder.start();
+        BufferedReader r = new BufferedReader(new InputStreamReader(p.getInputStream()));
+        String line;
+        while (true) {
+            line = r.readLine();
+            if (line == null) { break; }
+            System.out.println(line);
+        }
+    }
+}
+
+
+
+Process p = Runtime.getRuntime().exec(command);
+
+
+
+
+String[] command = {command_to_be_executed, arg1, arg2};
+ProcessBuilder builder = new ProcessBuilder(command);
+builder = builder.directory(new File("directory_location"));
+Example:
+
+String[] command = {"ls", "-al"};
+ProcessBuilder builder = new ProcessBuilder(command);
+builder = builder.directory(new File("/ngs/app/abc"));
+Process p = builder.start();
+
+
+
+
+
+String command = "REG QUERY HKEY_CLASSES_ROOT\\http\\shell\\open\\command";
+try
+{
+    Process process = Runtime.getRuntime().exec(command);
+} catch (IOException e)
+{
+    e.printStackTrace();
+}
+Then use a Scanner to get the output of the command, if necessary.
+
+Scanner kb = new Scanner(process.getInputStream());
+
+
+
+
+Runtime rt = Runtime.getRuntime();
+Process pr = rt.exec("java -jar map.jar time.rel test.txt debug");
+
+
+
+
+Use pr.getInputStream(). Here is a detailed example: linglom.com/2007/06/06/… – kol Dec 13 '11 at 21:43
+6
+It's useful to check what the process returns with. You can get that with pr.waitFor(). So it looks like this: int retVal = pr.waitFor(). So if it's not 0, you can abort / clean up. – Apache Dec 10 '13 at 15:32
+1
+Is there a practical/meaningful difference between pr.exitValue and pr.waitFor()? Update: I think exitValue will throw an exception if the process has not finished where as waitFor... you know – Don Cheadle Dec 11 '14 at 20:04 
+3
+nothing it's more java than "Runtime rt = Runtime.getRuntime();" 
+
+
+
+
+
+
+
+final Process p = Runtime.getRuntime().exec("java -jar map.jar time.rel test.txt debug");
+
+new Thread(new Runnable() {
+    public void run() {
+     BufferedReader input = new BufferedReader(new InputStreamReader(p.getInputStream()));
+     String line = null; 
+
+     try {
+        while ((line = input.readLine()) != null)
+            System.out.println(line);
+     } catch (IOException e) {
+            e.printStackTrace();
+     }
+    }
+}).start();
+
+p.waitFor();
+
+
+
+
+
+
+
+
+
+
+
